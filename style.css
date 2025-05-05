@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    font-family: "Viaoda Libre", serif;
+    background-color: #f7f9fb;
+    color: #333;
+    padding: 2rem;
+    max-width: 550px;
+    margin: auto;
+  }
+
+#listaAPI{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa{
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 1s, box-shadow 1s;
+    transform: scale(1);
+    margin-bottom: 10px;
+}
+
+.caixa:hover{
+    background: #b0d4f1;
+}
